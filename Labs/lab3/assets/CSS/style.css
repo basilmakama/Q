@@ -1,0 +1,63 @@
+@import "templatecolours.css";
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*NAVIGATION BAR CSS*/
+
+nav>ul {
+    list-style-type: none;
+    margins: 0;
+    pading: 0;
+    overflow: hidden;
+}
+
+nav>ul>li{
+    float: left;
+}
+
+nav>ul>li a{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #363636;
+}
+
+/*image sizing*/
+
+#cslogo
+{
+    width: 300px;
+}
+#banner
+{
+    max-width: 960px;
+}
+#woodpic
+{
+    width: 200px;
+}
+
+/*text styling*/
+
+h1{
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p,h2,h3,h4,h5,a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
